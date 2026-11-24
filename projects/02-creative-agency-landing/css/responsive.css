@@ -1,0 +1,204 @@
+/* Responsive part start */
+
+@media (min-width: 1400px) {
+  .custom-container {
+    max-width: 1194px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .custom-container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .nav-links-list {
+    gap: 32px;
+  }
+
+  .hero-title {
+    font-size: 54px;
+    line-height: 66px;
+  }
+
+  .service-card {
+    padding: 48px 32px;
+  }
+
+  .testimonial-card {
+    padding: 36px 28px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .site-header {
+    min-height: 96px;
+  }
+
+  .site-header .navbar {
+    padding: 16px 0;
+  }
+
+  .brand-logo {
+    height: 60px;
+  }
+
+  .nav-links-list {
+    gap: 14px;
+    padding: 18px 0;
+  }
+
+  .hero-section {
+    min-height: auto;
+    padding: 64px 0;
+  }
+
+  .hero-text-wrap {
+    max-width: 100%;
+  }
+
+  .hero-title {
+    font-size: 42px;
+    line-height: 52px;
+  }
+
+  .hero-image-col {
+    text-align: center;
+  }
+
+  .services-section,
+  .portfolio-section,
+  .team-section,
+  .testimonial-section,
+  .blog-section {
+    padding-top: 72px;
+  }
+
+  .blog-section {
+    padding-bottom: 72px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .site-header {
+    min-height: 96px;
+  }
+
+  .site-header .navbar {
+    padding: 16px 0;
+  }
+
+  .brand-logo {
+    height: 60px;
+  }
+
+  .nav-links-list {
+    gap: 14px;
+    padding: 18px 0;
+  }
+
+  .hero-section {
+    min-height: auto;
+    padding: 64px 0;
+  }
+
+  .hero-text-wrap {
+    max-width: 100%;
+  }
+
+  .hero-title {
+    font-size: 42px;
+    line-height: 52px;
+  }
+
+  .hero-image-col {
+    text-align: center;
+  }
+
+  .services-section,
+  .portfolio-section,
+  .team-section,
+  .testimonial-section,
+  .blog-section {
+    padding-top: 72px;
+  }
+
+  .blog-section {
+    padding-bottom: 72px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .site-header {
+    min-height: 96px;
+  }
+
+  .site-header .navbar {
+    padding: 16px 0;
+  }
+
+  .brand-logo {
+    height: 60px;
+  }
+
+  .nav-links-list {
+    gap: 14px;
+    padding: 18px 0;
+  }
+
+  .section-row {
+    margin-left: -10px;
+    margin-right: -10px;
+    row-gap: 20px;
+  }
+
+  .section-row > [class*="col-"] {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .hero-section {
+    min-height: auto;
+    padding: 64px 0;
+  }
+
+  .hero-title {
+    font-size: 34px;
+    line-height: 44px;
+  }
+
+  .hero-image-col {
+    text-align: center;
+  }
+
+  .section-title {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .services-section,
+  .portfolio-section,
+  .team-section,
+  .testimonial-section,
+  .blog-section {
+    padding-top: 72px;
+  }
+
+  .blog-section {
+    padding-bottom: 72px;
+  }
+
+  .service-card,
+  .testimonial-card {
+    padding: 32px 24px;
+    min-height: auto;
+  }
+
+  .site-footer {
+    padding: 64px 0;
+    min-height: auto;
+  }
+}
+
+/* Responsive part end */
